@@ -64,13 +64,43 @@ margin-left: 100px;
     line-height: 1.6em;
 }
 
-.grafico{
+.grafico1{
     float: right;
     margin-top: 110px;
     margin-right: 50px;
-    width: 1000px;
+    width: 1030px;
     height: 100px;
-    color: #0A0140;
     border-radius: 10px;
 }
-
+.grafico2{
+    float: right;
+    margin-top: 380px;
+    margin-right: 50px;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+}
+.grafico3{
+    float: left;
+    margin-top: 380px;
+    margin-left: 360px;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+}
+.grafico4{
+    float: right;
+    margin-top: 380px;
+    margin-right: 50px;
+    width: 1030px;
+    height: 100px;
+    border-radius: 10px;
+}
+.grafico5{
+    float: right;
+    margin-top: 380px;
+    margin-right: 50px;
+    width: 1030px;
+    height: 100px;
+    border-radius: 10px;
+}

@@ -104,8 +104,9 @@ app.layout = html.Div([
         ]
     ),
 
+    
     html.Div(
-        className="grafico",
+        className="grafico1",
         children=[
             dcc.Graph(
                 id='grafico_frutas',
@@ -115,7 +116,7 @@ app.layout = html.Div([
         ]
     ),
     html.Div(
-    className="grafico",
+    className="grafico2",
     children=[
         dcc.Graph(
             id='grafico_frutas',
@@ -124,7 +125,7 @@ app.layout = html.Div([
     ]
 ),
     html.Div(
-    className="grafico",
+    className="grafico3",
     children=[
         dcc.Graph(
             id='grafico_frutas',
@@ -133,7 +134,7 @@ app.layout = html.Div([
     ]
 ),
     html.Div(
-    className="grafico",
+    className="grafico4",
     children=[
         dcc.Graph(
             id='grafico_frutas',
@@ -142,7 +143,7 @@ app.layout = html.Div([
     ]
 ),
     html.Div(
-    className="grafico",
+    className="grafico5",
     children=[
         dcc.Graph(
             id='grafico_frutas',
