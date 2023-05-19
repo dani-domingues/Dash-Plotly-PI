@@ -110,7 +110,11 @@ app.layout = html.Div([
         children=[
             dcc.Graph(
                 id='grafico_frutas',
-                figure=fig1,            
+                figure=fig1,
+                style={
+                'borderRadius': '10px',
+                'border': '20px solid #252a48'
+            }            
                 
     )
         ]
@@ -120,7 +124,11 @@ app.layout = html.Div([
     children=[
         dcc.Graph(
             id='grafico_frutas',
-            figure=fig2
+            figure=fig2,
+            style={
+                'borderRadius': '10px',
+                'border': '20px solid #252a48'
+            }        
 )
     ]
 ),
@@ -129,7 +137,11 @@ app.layout = html.Div([
     children=[
         dcc.Graph(
             id='grafico_frutas',
-            figure=fig3
+            figure=fig3,
+            style={
+                'borderRadius': '10px',
+                'border': '20px solid #252a48'
+            }        
 )
     ]
 ),
@@ -138,7 +150,11 @@ app.layout = html.Div([
     children=[
         dcc.Graph(
             id='grafico_frutas',
-            figure=fig4
+            figure=fig4,
+            style={
+                'borderRadius': '10px',
+                'border': '20px solid #252a48'
+            }        
 )
     ]
 ),
@@ -147,7 +163,12 @@ app.layout = html.Div([
     children=[
         dcc.Graph(
             id='grafico_frutas',
-            figure=fig5
+            figure=fig5,
+            style={
+                'borderRadius': '10px',
+                'border': '20px solid #252a48',
+                'position':'fixed'
+            }        
 )
     ]
 ),
